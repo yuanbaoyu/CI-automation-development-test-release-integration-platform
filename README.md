@@ -1,9 +1,11 @@
 # CI-automation-development-test-release-integration-platform
 CI自动化开发测试发布一体化平台搭建
-## 平台介绍
+
+##一、平台介绍
 本平台将使用 Phabricator + Xmapp + Git + Gradle + Jenkins 来实现搭建.
+
 ###1、Phabricator的详细介绍
-在代码审查(Code Review)方面，Facebook做了一个可视化的工具，现已开源，叫Phabricator;工程师可以在页面上非常方便的针对每一段(单行或者多行)代码进行交互讨论;负责审查的工程师可以接受代码改变，可以提出疑问要求原作者继续修改，可以提出自己不适合以推出该代码审查，等等。只有代码被明确接受之后才能被工程师提交到服务器端的代码库，这一点集成到提交工具中强制执行。基本理念就是凡是被很多人不断重复的好的习惯，要将其自动化，绑定到工具之中。以“Don’t make me think”的方式来推广好的practice。
+在代码审查(Code Review)方面，Facebook做了一个可视化的工具，现已开源，叫Phabricator;工程师可以在页面上非常方便的针对每一段(单行或者多行)代码进行交互讨论;负责审查的工程师可以接受代码改变，可以提出疑问要求原作者继续修改，可以提出自己不适合以推出该代码审查，等等。只有代码被明确接受之后才能被工程师提交到服务器端的代码库，这一点集成到提交工具中强制执行。基本理念就是凡是被很多人不断重复的好的习惯，要将其自动化，绑定到工具之中。以“Don’t make me think”的方式来推广好的practice。目前只支持在linux和mac上安装。
 
 ###2、Xmapp
 XAMPP是完全免费且易于安装的Apache发行版，其中包含MySQL、PHP和Perl。XAMPP开放源码包的设置让安装和使用出奇容易。它也提供Tomcat等其他服务。
